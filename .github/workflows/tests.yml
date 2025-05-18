@@ -18,3 +18,4 @@ jobs:
         with:
           install: base-devel openssl-devel ${{ matrix.msys_prefix }}-cc ${{ matrix.msys_prefix }}-gperf ${{ matrix.msys_prefix }}-nasm
           msystem: ${{ matrix.msys_system }}
+          release: false
